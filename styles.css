@@ -1,0 +1,78 @@
+/* CSS Document */
+body{
+	background-color: darkseagreen;
+	color:
+}
+
+main{
+	background-color:lightyellow;
+}
+
+h1{
+	font-size: 3em;
+	margin:  0 10% 0 9%;
+	font-family:"Playwrite CU"; 
+	animation-name:example;
+	animation-duration:20s;
+	animation-iteration-count: infinite;
+}
+
+img{
+	width:25%;
+	float:left;
+	padding:1%;
+	border-radius: 45%;
+	animation-name:example;
+	animation-duration:4s;
+}
+
+nav ul{
+	list-style: none;
+	
+}
+
+nav ul li{
+	display:inline;
+	font-size: 2em;
+	padding: 0 10% 0 8%;
+}
+
+nav ul li a{
+	text-decoration:none;
+	color:brown;
+	font-family:"Playwrite CU";
+	font-family: 
+}
+
+nav ul li a:hover{
+	color:black;
+}
+
+p{
+	font-size: 1.9em;
+	
+}
+
+h2{
+	font-size:2em;
+	font-family:"Playwrite CU";
+	
+}
+
+footer p{
+	font-size:1em;
+	text-align:center;
+}
+
+@keyframes example {
+  0%   {color: red;}
+  15% {color:orange;}
+  25%  {color: yellow;}
+  50%  {color: green;}
+  75% {color:blue}
+  90% {color: purple;}
+	100%{color:darkmagenta;}
+
+
+
+
